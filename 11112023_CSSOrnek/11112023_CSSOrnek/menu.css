@@ -1,0 +1,28 @@
+﻿body {
+}
+
+.yatayMenu{
+    background-color:lightgray;
+}
+    .yatayMenu ul{
+        list-style-type:none;
+        padding-left:0;
+        margin:0;
+    }
+        .yatayMenu ul li{
+            display:inline-grid;
+            margin:0;
+        }
+            .yatayMenu ul li a{
+                color:black;
+                text-decoration:none;
+                padding:10px 20px;
+                border-right:1px solid black;
+            }
+                .yatayMenu ul li:last-child a{
+                    border-right:none;
+                }
+                    .yatayMenu ul li  a:hover{
+                        background-color:black;
+                        color:white;
+                    }
